@@ -1,0 +1,163 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Backbase Weather App</title>
+    <meta name="description" content="Backbase Weather App">
+    <meta name="author" content="Adam Paul">    
+
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/loader.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" 
+        integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">  
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css">  
+</head>
+
+<body>
+
+    <div class="loader">Loading...</div>
+
+    <section class="cards">
+        <div class="col-md-12 col-lg-2 col-lg-offset-1">
+
+            <!-- Card -->
+            <article class="card edinburgh">
+                <img class="card-img-top img-responsive" src="images/Edinburgh.jpg" alt="Edinburgh, GB" />
+                <div class="card-block">
+                    <h3 class="card-title">Edinburgh, GB</h3>
+                    <h6 class="text-muted wind"></h6>
+                    <div class="card-text">
+                        <div class="temp"></div>
+                        <div class="icon"></div>
+                    </div>
+                    <div class="forecast">
+                        <h5>Next three hours:</h5>
+                        <div class="forecast-text text-muted"></div>
+                        <div class="forecast-icon"></div>                        
+                    </div>
+                    <a href="#" class="btn btn-primary forecast-button" data-city-name=".edinburgh" data-city-id="2650225" 
+                        data-modal="OFF" data-forecast="NO">Forecast</a>
+                </div>
+            </article>
+            <!-- End card -->
+
+        </div>
+        <div class="col-md-12 col-lg-2">
+
+            <!-- Card -->
+            <article class="card amsterdam">
+                <img class="card-img-top img-responsive" src="images/Amsterdam.jpg" alt="Amsterdam, NL" />
+                <div class="card-block">
+                    <h3 class="card-title">Amsterdam, NL</h3>
+                    <h6 class="text-muted wind"></h6>
+                    <div class="card-text">
+                        <div class="temp"></div>
+                        <div class="icon"></div>
+                    </div>
+                    <div class="forecast">
+                        <h5>Next three hours:</h5>
+                        <div class="forecast-text text-muted"></div>
+                        <div class="forecast-icon"></div>                        
+                    </div>
+                    <a href="#" class="btn btn-primary forecast-button" data-city-name=".amsterdam" data-city-id="6544881" 
+                        data-modal="OFF" data-forecast="NO">Forecast</a>
+                </div>
+            </article>
+            <!-- End card -->
+
+        </div>
+        <div class="col-md-12 col-lg-2">
+
+            <!-- Card -->
+            <article class="card chamonix">
+                <img class="card-img-top img-responsive" src="images/Chamonix.jpg" alt="Chamonix, FR" />
+                <div class="card-block">
+                    <h3 class="card-title">Chamonix, FR</h3>
+                    <h6 class="text-muted wind"></h6>
+                    <div class="card-text">
+                        <div class="temp"></div>
+                        <div class="icon"></div>
+                    </div>
+                    <div class="forecast">
+                        <h5>Next three hours:</h5>
+                        <div class="forecast-text text-muted"></div>
+                        <div class="forecast-icon"></div>                        
+                    </div>
+                    <a href="#" class="btn btn-primary forecast-button" data-city-name=".chamonix" data-city-id="3027301" 
+                        data-modal="OFF" data-forecast="NO">Forecast</a>
+                </div>
+            </article>
+            <!-- End card -->     
+
+        </div>
+        <div class="col-md-12 col-lg-2">
+
+            <!-- Card -->
+            <article class="card sitges">
+                <img class="card-img-top img-responsive" src="images/Sitges.jpg" alt="Sitges, ES" />
+                <div class="card-block">
+                    <h3 class="card-title">Sitges, ES</h3>
+                    <h6 class="text-muted wind"></h6>
+                    <div class="card-text">
+                        <div class="temp"></div>
+                        <div class="icon"></div>
+                    </div>
+                    <div class="forecast">
+                        <h5>Next three hours:</h5>
+                        <div class="forecast-text text-muted"></div>
+                        <div class="forecast-icon"></div>                        
+                    </div>
+                    <a href="#" class="btn btn-primary forecast-button" data-city-name=".sitges" data-city-id="3108877" 
+                        data-modal="OFF" data-forecast="NO">Forecast</a>
+                </div>
+            </article>
+            <!-- End card -->     
+            
+        </div>
+        <div class="col-md-12 col-lg-2">
+
+            <!-- Card -->
+            <article class="card berlin">
+                <img class="card-img-top img-responsive" src="images/Berlin.jpg" alt="Berlin, DE" />
+                <div class="card-block">
+                    <h3 class="card-title">Berlin, DE</h3>
+                    <h6 class="text-muted wind"></h6>
+                    <div class="card-text">
+                        <div class="temp"></div>
+                        <div class="icon"></div>
+                    </div>
+                    <div class="forecast">
+                        <h5>Next three hours:</h5>
+                        <div class="forecast-text text-muted"></div>
+                        <div class="forecast-icon"></div>                        
+                    </div>
+                    <a href="#" class="btn btn-primary forecast-button" data-city-name=".berlin" data-city-id="2950159" 
+                        data-modal="OFF" data-forecast="NO">Forecast</a>
+                </div>
+            </article>
+            <!-- End card -->     
+            
+        </div>            
+    </section>
+
+
+
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" 
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+/* Reset box sizing */
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+/* Element styles */
+a {
+  transition: .25s all;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif !important;
+}
+
+
+header {
+    height: 76px;
+    margin-bottom: 15px;
+    background: #fff !important;
+    position: relative;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    z-index: 0;
+}
+
+header::after {
+    margin-bottom: 15px;
+}
+
+
+/* Class styles */
+.bb-logo {
+    display: block;
+    float: left;
+    padding: 25px 0;
+    margin-left: 0;
+    height: 18px;
+    width: 228px;
+}
+
+.bb-logo img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+}
+
+.btn-primary {
+    background-color: #423c35 !important;
+    border-color: #423c35 !important;
+}
+
+.card {
+  overflow: hidden;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  transition: .25s box-shadow;
+}
+.card:focus, .card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 4px 15px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-block {
+    text-align: center;
+}
+
+.card-text {
+    margin-bottom: 10px;
+}
+
+.cards {
+    opacity: 0;
+}
+
+.cards::after {
+    content: "";
+    background: url("city.jpg");
+    background-repeat: repeat;
+    opacity: 0.6;
+    top: 76px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;  
+}
+
+.forecast {
+    display: none;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 5px;
+    width: 100%;
+    background-color: #f8f8f8;
+}
+
+.forecast-text {
+    font-weight: 700;
+}
+
+.forecast-icon > img {
+    height: 70px;
+}
+
+.icon {
+    display: inline-block;
+}
+
+.hidden {
+    display: none;
+}
+
+.temp {
+    font-weight: 700;
+    font-size: 2rem;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+
